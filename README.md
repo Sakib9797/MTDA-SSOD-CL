@@ -97,8 +97,6 @@ Training artifacts are written under `runs/train/` (checkpoints, CSV/JSON summar
 - Training performance depends heavily on GPU/CPU, dataset size, and the chosen YOLO backbone.
 - If you only want to version-control code, keep `dataset/` and `runs/` ignored in Git.
 
-This project is licensed under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - **Cityscapes**: Dataset providers (https://www.cityscapes-dataset.com/)
@@ -108,7 +106,7 @@ This project is licensed under the MIT License.
 
 1. **Data Quality**: Ensure annotations are accurate
 2. **Hyperparameter Tuning**: Experiment with learning rate and batch size
-3. **Model Selection**: Try yolov5m for better accuracy (slower training)
+3. **Model Selection**: Try yolov11s for better accuracy (slower training)
 4. **Data Augmentation**: Add more augmentation for robustness
 5. **Longer Training**: Train for 100+ epochs for higher mAP
 
