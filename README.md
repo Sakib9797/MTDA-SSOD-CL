@@ -28,7 +28,7 @@ Configuration:
 
 Training supports two loading paths:
 - Default: YOLOv11 small via Ultralytics (`yolo11s.pt`) when `model_size` contains `yolo11`/`v11`
-- Fallback: YOLOv5s via `torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)`
+- Fallback: YOLOv11s via `torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)`
 
 If Ultralytics isn’t installed, `train.py` will attempt to install it automatically.
 
