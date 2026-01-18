@@ -9,8 +9,20 @@
 !*/
 
 # Always keep this file
-!.gitignore
+!/.gitignore
 
 # --- Keep Python source code ---
 !*.py
 !**/*.py
+
+# --- Keep repo essentials ---
+!/README.md
+!/requirements.txt
+!/config.yaml
+
+# --- Keep selected training artifacts (and ignore the rest) ---
+!/runs/train/baseline_comparison.csv
+!/runs/train/curriculum_stages.csv
+!/runs/train/test_results_by_class.csv
+!/runs/train/test_results_by_domain.csv
+!/runs/train/checkpoints/best.pt
