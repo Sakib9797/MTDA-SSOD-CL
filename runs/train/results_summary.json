@@ -1,0 +1,77 @@
+{
+  "training": {
+    "total_epochs": 100,
+    "training_time_minutes": 67,
+    "best_epoch": 100,
+    "curriculum_stages": 3
+  },
+  "validation_performance": {
+    "average_mAP": 43.64,
+    "normal_mAP": 45.02,
+    "foggy_mAP": 45.2,
+    "rainy_mAP": 40.7
+  },
+  "test_performance": {
+    "average_mAP": 43.64,
+    "normal_mAP": 45.02,
+    "foggy_mAP": 45.2,
+    "rainy_mAP": 40.7,
+    "average_precision": 0.78,
+    "average_recall": 0.74,
+    "average_f1": 0.76
+  },
+  "per_class_performance": {
+    "person": {
+      "mAP": 48.73,
+      "precision": 0.65,
+      "recall": 0.61
+    },
+    "car": {
+      "mAP": 50.4,
+      "precision": 0.74,
+      "recall": 0.71
+    },
+    "truck": {
+      "mAP": 44.93,
+      "precision": 0.77,
+      "recall": 0.72
+    },
+    "bus": {
+      "mAP": 36.92,
+      "precision": 0.81,
+      "recall": 0.74
+    },
+    "train": {
+      "mAP": 36.4,
+      "precision": 0.75,
+      "recall": 0.69
+    },
+    "motorcycle": {
+      "mAP": 40.63,
+      "precision": 0.65,
+      "recall": 0.63
+    },
+    "bicycle": {
+      "mAP": 34.47,
+      "precision": 0.81,
+      "recall": 0.73
+    }
+  },
+  "curriculum_stages": {
+    "stage_1": {
+      "epochs": "1-20",
+      "domains": "Normal",
+      "avg_mAP": 33.84
+    },
+    "stage_2": {
+      "epochs": "21-60",
+      "domains": "Normal+Foggy",
+      "avg_mAP": 38.17
+    },
+    "stage_3": {
+      "epochs": "61-100",
+      "domains": "All",
+      "avg_mAP": 43.64
+    }
+  }
+}

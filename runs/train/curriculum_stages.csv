@@ -1,0 +1,4 @@
+stage,name,epochs,domains,domain_weights,confidence_threshold,avg_map
+0,Easy,1-20,Normal,"1.0, 0.0, 0.0",0.6,33.84
+1,Medium,21-60,"Normal, Foggy","0.75, 0.25, 0.0",0.4,38.17
+2,Hard,61-100,All,"0.5, 0.25, 0.25",0.2,43.64

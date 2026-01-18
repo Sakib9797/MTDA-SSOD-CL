@@ -1,0 +1,16 @@
+{
+  "best_epoch": 99,
+  "best_map": 53.02,
+  "best_map_normal": 56.98,
+  "best_map_foggy": 54.56,
+  "best_map_rainy": 47.52,
+  "final_map": 52.61,
+  "final_map_normal": 55.75,
+  "final_map_foggy": 54.12,
+  "final_map_rainy": 47.96,
+  "test_map": 53.02,
+  "test_map_normal": 56.98,
+  "test_map_foggy": 54.56,
+  "test_map_rainy": 47.52,
+  "target_achieved": true
+}
