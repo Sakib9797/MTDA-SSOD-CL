@@ -1,4 +1,0 @@
-Domain,Val_mAP,Test_mAP,Test_Precision,Test_Recall,Test_F1
-Normal,56.98,56.98,0.79,0.77,0.83
-Foggy,54.56,54.56,0.78,0.79,0.8
-Rainy,47.52,47.52,0.81,0.72,0.75

@@ -1,8 +1,8 @@
 # Whitelist-style .gitignore
-# Goal: keep documentation (Markdown) + datasets and other non-code assets,
-# while ignoring code files (e.g., .py) and everything else by default.
+# Goal: ONLY track source code (Python) and this .gitignore.
+# Everything else (docs, data, outputs, weights, figures) is ignored.
 
-# Ignore everything
+# Ignore everything by default
 *
 
 # ...but allow Git to traverse directories (required for whitelisting files)
@@ -11,34 +11,6 @@
 # Always keep this file
 !.gitignore
 
-# --- Keep Markdown docs ---
-!**/*.md
-
-# --- Keep dataset folders (adjust if you rename folders) ---
-!dataset/**
-!foggy/**
-!rainy/**
-!normal/**
-
-# --- Keep other NON-CODE paper/data assets (optional but useful) ---
-!**/*.tex
-!**/*.bib
-!**/*.yaml
-!**/*.yml
-!**/*.csv
-!**/*.json
-!**/*.txt
-!**/*.pdf
-!**/*.png
-!**/*.jpg
-!**/*.jpeg
-!**/*.svg
-!**/*.eps
-
-# --- Explicitly keep common readme/license patterns ---
-!**/LICENSE
-!**/LICENSE.*
-!**/license.txt
-
-# Note: Code files (e.g., *.py, *.ipynb, *.pt) remain ignored because they
-# are not included in the whitelist above.
+# --- Keep Python source code ---
+!*.py
+!**/*.py
